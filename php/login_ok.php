@@ -8,7 +8,7 @@ $pwd = $_POST["pwd"];
 // echo "ID : ".$u_id." / PW : ".$pwd;
 
 /* DB 접속 */
-include "../inc/dbcon.php";
+include "./db_conn.php";
 
 /* 쿼리 작성 */
 $sql = "select idx, u_name, u_id, pwd from members where u_id='$u_id';";

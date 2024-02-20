@@ -15,10 +15,10 @@ if (isset($_POST['uname']) && isset($_POST['password'])) {
 	$pass = validate($_POST['password']);
 
 	if (empty($uname)) {
-		header("Location: index.php?error=User Name is required");
+		header("Location: index.php?error=아이디를 입력하세요.");
 	    exit();
 	}else if(empty($pass)){
-        header("Location: index.php?error=Password is required");
+        header("Location: index.php?error=비밀번호를 입력하세요.");
 	    exit();
 	}else{
 		// hashing the password
@@ -38,11 +38,11 @@ if (isset($_POST['uname']) && isset($_POST['password'])) {
             	header("Location: home.php");
 		        exit();
             }else{
-				header("Location: index.php?error=Incorect User name or password");
+				header("Location: index.php?error=아이디나 비밀번호가 잘못되었습니다.");
 		        exit();
 			}
 		}else{
-			header("Location: index.php?error=Incorect User name or password");
+			header("Location: index.php?error=아이디나 비밀번호가 잘못되었습니다.");
 	        exit();
 		}
 	}
