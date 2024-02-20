@@ -1,7 +1,7 @@
 <?php
-$sname= "172.30.1.37";
-$uname= "flytpayadmin";
-$password="flytpaypw";
+$sname= "localhost";
+$uname= "root";
+$password="pwroot";
 
 $db_name = "flytpaydb";
 

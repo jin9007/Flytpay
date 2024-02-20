@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>회원가입</title>
+	<title>SIGN UP</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
@@ -51,7 +51,7 @@
                  placeholder="Re_Password"><br>
 
      	<button type="submit">Sign Up</button>
-          <a href="index.php" class="ca">이미 가입 되어 있으신가요?</a>
+          <a href="index.php" class="ca">Already have an account?</a>
      </form>
 </body>
 </html>
